@@ -4,9 +4,9 @@ import (
 	"github.com/qbhy/go-utils"
 	"path"
 	"fmt"
-	"tumblr-crawler/downloader"
+	"github.com/ovear/go-tumblr-crawler/downloader"
 	"runtime"
-	config2 "tumblr-crawler/config"
+	config2 "github.com/ovear/go-tumblr-crawler/config"
 )
 
 func main() {

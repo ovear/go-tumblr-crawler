@@ -1,7 +1,7 @@
 package downloader
 
 import (
-	"tumblr-crawler/downloader/response"
+	"github.com/ovear/go-tumblr-crawler/downloader/response"
 	"fmt"
 	"github.com/qbhy/go-utils"
 	"github.com/parnurzeal/gorequest"
@@ -9,7 +9,7 @@ import (
 	"sync"
 	"strings"
 	"path/filepath"
-	"tumblr-crawler/config"
+	"github.com/ovear/go-tumblr-crawler/config"
 )
 
 var request *gorequest.SuperAgent

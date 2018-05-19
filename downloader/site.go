@@ -8,9 +8,9 @@ import (
 	"github.com/parnurzeal/gorequest"
 	"fmt"
 	"encoding/xml"
-	response2 "tumblr-crawler/downloader/response"
+	response2 "github.com/ovear/go-tumblr-crawler/downloader/response"
 	"math/big"
-	"tumblr-crawler/config"
+	"github.com/ovear/go-tumblr-crawler/config"
 )
 
 func NewSite(site config.SiteConfig, config config.ProxyConfig) *Site {
