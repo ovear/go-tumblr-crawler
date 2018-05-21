@@ -1,0 +1,24 @@
+#从哪里加载 config db
+site_loading : db
+#  存储路径，留空默认下载到当前目录的download文件夹下
+#  save_path : /Users/somebody/Downloads,
+#  下载线程数
+download_thread : 5
+#是否下载图片
+download_photo : true
+#是否下载视频
+download_video : true
+#是否下载原图
+download_raw_photo : true
+#  是否启用无限循环模式
+enable_loop : false
+#  循环间隔时间(秒)
+loop_interval : 60
+enable_db : true
+db_host : 192.168.200.201
+db_port : 3306
+db_username : tumblr
+db_password : tumblr
+db_database : tumblr
+db_table : tumblr
+db_sites_table : sites

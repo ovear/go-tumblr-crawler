@@ -1,12 +1,16 @@
 [
   {
     "site": "truenorthshow",
-    "video": true,
-    "photo": true
+    "video_download": true,
+    "photo_download": true,
+    "video_db" : true,
+    "photo_db" : true
   },
   {
     "site": "photosbygerardo",
-    "video": true,
-    "photo": true
+    "video_download": true,
+    "photo_download": true,
+    "video_db" : true,
+    "photo_db" : true
   }
 ]

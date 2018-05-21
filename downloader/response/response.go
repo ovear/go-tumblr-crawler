@@ -14,10 +14,16 @@ type BasePosts struct {
 }
 
 type BasePost struct {
+	Id        string    `xml:"id,attr"`
+	ReblogKey string    `xml:"reblog-key,attr"`
+	Type      string    `xml:"type,attr"`
+	Tag       []string  `xml:"tag"`
 	Tumblelog Tumblelog `xml:"tumblelog"`
+	PhotoCaption string `xml:"photo-caption"`
 }
 
 type Tumblelog struct {
 	Title string `xml:"title,attr"`
-	Name string `xml:"name,attr"`
+	Name  string `xml:"name,attr"`
+	Value string `xml:",chardata"`
 }
